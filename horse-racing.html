@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Racing - GAMBLING</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        #horse-selection button {
+            margin: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        #horse-selection button.selected {
+            background-color: #3498DB;
+            color: white;
+        }
+        #start-race {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+        #race-track {
+            width: 100%;
+            height: 300px;
+            background-color: #f0f0f0;
+            position: relative;
+            overflow: hidden;
+        }
+        .horse {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 0;
+            transition: left 5s;
+        }
+        #message {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Horse Racing</h1>
+    </header>
+    <main>
+        <div id="game-container">
+            <!-- Game content will be inserted here by JavaScript -->
+        </div>
+        <a href="index.html" class="back-button">Back to Games</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gambling App Showcase</p>
+    </footer>
+    <script src="horse-racing.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack - GAMBLING</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .hand {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .card {
+            width: 60px;
+            height: 90px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .card.red {
+            color: red;
+        }
+        .card.black {
+            color: black;
+        }
+        #game-controls {
+            margin-top: 20px;
+        }
+        #game-controls button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blackjack</h1>
+    </header>
+    <main>
+        <div id="game-container"></div>
+        <a href="index.html" class="back-button">Back to Games</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gambling App Showcase</p>
+    </footer>
+    <script src="blackjack.js"></script>
+</body>
+</html>

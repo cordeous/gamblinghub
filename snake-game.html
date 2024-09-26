@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - GAMBLING</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        #game-board {
+            width: 300px;
+            height: 300px;
+            border: 2px solid #333;
+            margin: 20px auto;
+            position: relative;
+        }
+        .snake-part {
+            width: 10px;
+            height: 10px;
+            background-color: green;
+            position: absolute;
+        }
+        .food {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Snake Game</h1>
+    </header>
+    <main>
+        <div id="game-container"></div>
+        <a href="index.html" class="back-button">Back to Games</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gambling App Showcase</p>
+    </footer>
+    <script src="snake-game.js"></script>
+</body>
+</html>
